@@ -1,0 +1,6 @@
+def string_function(x):
+  if len(x)<2:
+    return "Empty string"
+  return x[0:2] + x[-2:]
+x = input("Enter string ")
+print(string_function(x))
