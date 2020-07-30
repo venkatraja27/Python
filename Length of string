@@ -1,0 +1,7 @@
+def string_length(string_1):
+  count = 0
+  for i in string_1:
+    count+=1
+  return count  
+string_1 = input('Enter the string ')
+print(string_length(string_1))
