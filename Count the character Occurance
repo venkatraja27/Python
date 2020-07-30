@@ -1,0 +1,13 @@
+
+def char_count(x):
+  dict={}
+  for n in x:
+    keys=dict.keys()
+    if n in keys:
+      dict[n] += 1
+    else:
+      dict[n] = 1
+  return dict 
+  
+x = 'google.com'
+print(char_count(x))
